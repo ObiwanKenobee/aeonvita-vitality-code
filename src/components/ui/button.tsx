@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Biotech variants
+        vitality: "bg-gradient-vitality text-primary-foreground shadow-glow-golden hover:shadow-glow-golden/80 transition-all duration-300",
+        biotech: "bg-gradient-primary text-primary-foreground shadow-glow-emerald hover:shadow-glow-emerald/80 transition-all duration-300",
+        glow: "bg-accent text-accent-foreground shadow-glow-bio-blue hover:shadow-glow-bio-blue/80 transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
